@@ -1,21 +1,18 @@
 .divtag{
-   background-color: brown;
+   background-color: darkblue;
    color: aliceblue ;
 }
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    display: flex; /* Use flexbox */
+    display: flex; 
 }
 
 nav li {
-    margin-right: 10px; /* Add spacing between list items */
+    margin-right: 10px; 
 }
 
-nav a {
-    text-decoration: none;
-}
 body{
     background-color: bisque;
 }
