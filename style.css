@@ -1,3 +1,32 @@
+.divtag{
+   background-color: brown;
+   color: aliceblue ;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Use flexbox */
+}
+
+nav li {
+    margin-right: 10px; /* Add spacing between list items */
+}
+
+nav a {
+    text-decoration: none;
+}
 body{
     background-color: bisque;
+}
+.about-details{
+    display: none;
+}
+.about-style{
+    background-color: black;
+    color: yellow;
+    font-size: 24px;
+    font-family:"Open Sans";
+    font-stretch: expanded;
+    align-self:"centre";
 }
