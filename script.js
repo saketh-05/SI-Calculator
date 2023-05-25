@@ -8,7 +8,7 @@ var resultExp=document.getElementById("output");
 resultExp.innerHTML= result;
 }
 
-function getAboutDetails(){
-var aboutdetails=document.querySelector("about-details");
+function getaboutdetails(){
+var aboutdetails=document.querySelector(".about-details");
 aboutdetails.style.display="block";
 }

@@ -1,3 +1,22 @@
+.navi{
+    text-align: right;
+    block-size: 20px;
+    background-color: darkblue;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 20px calc((100vw - 100%) / 2);
+    
+}
+.firstbutton{
+    position:absolute;
+    right: 150px;
+    top: 12px;
+    font-size: 22px;
+    padding: 5px 10px 5px 10px;
+}
+.firstbutton:hover{
+    background-color: aquamarine;
+}
 .divtag{
    background-color: darkblue;
    color: aliceblue ;
@@ -8,14 +27,26 @@ nav ul {
     padding: 0;
     display: flex; 
 }
-
+.firstheading{
+    font-size: 26px;
+    font-family:"Arial Rounded MT","Cavolini","Congenial" ;
+    color:azure;
+}
+.smg{
+    font-size: 28px;
+    font-family:"STHupo","Forte","Arial Rounded MT","Cavolini","Congenial";
+    color:#7fff00;
+}
 nav li {
     margin-right: 10px; 
 }
 
-body{
-    background-color: bisque;
-}
+body {
+    margin: 0;
+    padding: 0;
+    background-color:azure;
+  }
+  
 .about-details{
     display: none;
 }
@@ -26,4 +57,33 @@ body{
     font-family:"Open Sans";
     font-stretch: expanded;
     align-self:"centre";
+}
+.spantwo{
+    position:absolute;
+    top: 12px;
+    left:15%;
+}
+.image{
+    position:absolute;
+    width: 650px;
+    height: 350px;
+    right:70px;
+    top: 310px;
+    border-style:solid;
+    border-radius: 20px;
+}
+.main{
+    width:200mm;
+    height:297mm;
+    margin: 0 100px 0 228px;
+}
+.formula{
+    background-color: black;
+    color:lightgoldenrodyellow;
+    padding:9px 30px 11px 13px;
+    font-size: 22px;
+    font-family: "Arial Rounded MT";
+}
+.description{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
