@@ -9,10 +9,10 @@ resultExp.innerHTML= result;
 }
 
 document.getElementById("firstbutton").addEventListener("click",function(){
-   window.open("newpage.html");
+   window.location.href="newpage.html";
 })
 
 
 document.getElementById("homebutton").addEventListener("click",function(){
-    window.open("index.html","_blank");
+    window.location.href="index.html";
 })

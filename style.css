@@ -9,6 +9,7 @@
     top:17px;
     font-size: 22px;
     padding: 5px 10px 5px 10px;
+    transition: bisque 1.1s ease-in-out;
 }
 #homebutton:hover{
     background-color: aqua;
@@ -28,6 +29,7 @@
     top: 17px;
     font-size: 22px;
     padding: 5px 10px 5px 10px;
+    transition: bisque 1.1s ease-in-out;
 }
 #firstbutton:hover{
     background-color: aquamarine;
@@ -71,7 +73,7 @@ body {
     position:absolute;
     width: 650px;
     height: 350px;
-    right:45px;
+    right:38px;
     top: 280px;
     border-style:solid;
     border-radius: 20px;
@@ -84,7 +86,7 @@ body {
 .formula{
     background-color: black;
     color:lightgoldenrodyellow;
-    padding:9px 21px 11px 13px;
+    padding:9px 18px 11px 13px;
     font-size: 19px;
     font-family: "Arial Rounded MT";
 }
@@ -117,15 +119,32 @@ body {
     font-family: "Arial","Times New Roman","Forte";
     color: black;
     font-size: larger;
+    width: 600px;
 }
 .box{
     border: 3px solid navy; /* Border style and color */
     border-radius: 10px;
     padding: 10px 0 35px 10px; /* Padding around the content */
-    width:300px;
+    width:325px;
     background-color:antiquewhite; 
 }
 #submit:hover{
     background-color: #7fff00;
     color: black;
+}
+#userinput1{
+    display: inline;
+}
+#userinput2{
+    display: inline;
+}
+#userinput3{
+    display: inline;
+    margin-right: 15px;
+}
+#submit{
+    padding-left: 5px;
+    font-size: 15px;
+    margin-top: 5px;
+    transition: bisque 1.1s ease-in-out;
 }
