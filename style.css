@@ -71,8 +71,8 @@ body {
     position:absolute;
     width: 650px;
     height: 350px;
-    right:70px;
-    top: 350px;
+    right:45px;
+    top: 280px;
     border-style:solid;
     border-radius: 20px;
 }
@@ -112,4 +112,20 @@ body {
 }
 #gitlink{
     color: lightcoral;
+}
+.instructions{
+    font-family: "Arial","Times New Roman","Forte";
+    color: black;
+    font-size: larger;
+}
+.box{
+    border: 3px solid navy; /* Border style and color */
+    border-radius: 10px;
+    padding: 10px 0 35px 10px; /* Padding around the content */
+    width:300px;
+    background-color:antiquewhite; 
+}
+#submit:hover{
+    background-color: #7fff00;
+    color: black;
 }
