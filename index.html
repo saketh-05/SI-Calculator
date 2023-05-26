@@ -9,27 +9,26 @@
 
         <link href="style.css" rel="stylesheet">
 
+        <div class="home">
+            <button id="homebutton">HOME</button>
+        </div>
+
         <div class="navi">
-           
-            <button class="firstbutton" onclick="getaboutdetails()">About</button>
+            <button id="firstbutton">About</button>
         </div>
+
         <div class="spantwo"><span class="firstheading"> Various Types of </span> <span class="smg">Calculators</span></div>
-        <div class="about-details">
-           <span id="about-style"> ABOUT</span>
-           <hr width="50%"><br> 
-           This webpage has been developed and designed by D.Saketh Surya under the guidence of my Superior <b>"Rohini Barla Sir"</b>.
-            <br>You can comment on my work in my git hub account.<br>
-            <a href="https://github.com/saketh-05/SI-Calculator" target="_blank">GitHub account</a><br>
-        </div>
+
     </head>
 <body>
+    <div id="opener"></div>
     <div class="main">
        <h1> <div id="divtag"><i>Simple Interest</i> Calculator </div> </h1></body>
        <p>
        <span class="description">Simple interest is a straightforward method of calculating interest on a loan or investment. It is calculated based on the principal amount (the initial amount of money) and the interest rate over a specific period of time.</span><br><br>
-       <big> The formula for calculating simple interest is:</big><br><br>
-        <span class="formula"> Simple Interest = ( Principal x Time x Interest Rate ) / 100 </span>
-       </p>
+       <big> The formula for calculating simple interest is:</big><br><br><br>
+        <span class="formula">Simple Interest = ( Principal x Time x Interest Rate ) / 100</span>
+       </p><br>
      <h3> Principal amount(in Rs/-): </h3>
      <input id="userinput1" type="number" maxlength="8" placeholder="Enter the amount">
     
@@ -49,5 +48,8 @@
      <p id="output" style="display: inline;font-size:larger; font-family:Arial, Helvetica, sans-serif; color:darkgreen"></p>
      <script src="script.js"></script>
     </div>
+    <footer>
+        
+    </footer>
 </body>
 </html>

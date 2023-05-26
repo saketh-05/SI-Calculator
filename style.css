@@ -1,3 +1,18 @@
+.home{
+    text-align: left;
+    block-size: 20px;
+    background-color: darkblue;
+}
+#homebutton{
+    position: absolute;
+    left:100px;
+    top:17px;
+    font-size: 22px;
+    padding: 5px 10px 5px 10px;
+}
+#homebutton:hover{
+    background-color: aqua;
+}
 .navi{
     text-align: right;
     block-size: 20px;
@@ -7,26 +22,21 @@
     padding: 20px calc((100vw - 100%) / 2);
     
 }
-.firstbutton{
+#firstbutton{
     position:absolute;
     right: 150px;
-    top: 12px;
+    top: 17px;
     font-size: 22px;
     padding: 5px 10px 5px 10px;
 }
-.firstbutton:hover{
+#firstbutton:hover{
     background-color: aquamarine;
 }
 .divtag{
    background-color: darkblue;
    color: aliceblue ;
 }
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; 
-}
+
 .firstheading{
     font-size: 26px;
     font-family:"Arial Rounded MT","Cavolini","Congenial" ;
@@ -37,9 +47,6 @@ nav ul {
     font-family:"STHupo","Forte","Arial Rounded MT","Cavolini","Congenial";
     color:#7fff00;
 }
-nav li {
-    margin-right: 10px; 
-}
 
 body {
     margin: 0;
@@ -47,20 +54,17 @@ body {
     background-color:azure;
   }
   
-.about-details{
-    display: none;
-}
-.about-style{
-    background-color: black;
+#about-style{
     color: yellow;
-    font-size: 24px;
-    font-family:"Open Sans";
-    font-stretch: expanded;
-    align-self:"centre";
+    font-size: 29px;
+    font-family:"Forte";
+    margin-left: 11%;
+    margin-top: 3%;
+    
 }
 .spantwo{
     position:absolute;
-    top: 12px;
+    top: 17px;
     left:15%;
 }
 .image{
@@ -68,7 +72,7 @@ body {
     width: 650px;
     height: 350px;
     right:70px;
-    top: 310px;
+    top: 350px;
     border-style:solid;
     border-radius: 20px;
 }
@@ -80,10 +84,32 @@ body {
 .formula{
     background-color: black;
     color:lightgoldenrodyellow;
-    padding:9px 30px 11px 13px;
-    font-size: 22px;
+    padding:9px 21px 11px 13px;
+    font-size: 19px;
     font-family: "Arial Rounded MT";
 }
 .description{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',' Geneva',' Verdana', 'sans-serif';
+}
+.about-details{
+    font-family: "Arial Narrow Bold", "sans-serif";
+    font-size: 22px;
+    margin-left: 228px;
+    color:lightcyan;
+    margin-right: 40%;
+}
+.main2{
+    background-color: slateblue;
+    padding-left: 0;
+    padding-right: 0;
+    padding: 20px calc((100vw - 100%) / 2);
+}
+.body2{
+    background-color:antiquewhite;
+}
+#line{
+    margin-left: 6px;
+}
+#gitlink{
+    color: lightcoral;
 }

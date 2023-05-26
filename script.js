@@ -8,7 +8,11 @@ var resultExp=document.getElementById("output");
 resultExp.innerHTML= result;
 }
 
-function getaboutdetails(){
-var aboutdetails=document.querySelector(".about-details");
-aboutdetails.style.display="block";
-}
+document.getElementById("firstbutton").addEventListener("click",function(){
+   window.open("newpage.html");
+})
+
+
+document.getElementById("homebutton").addEventListener("click",function(){
+    window.open("index.html","_blank");
+})
