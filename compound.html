@@ -5,23 +5,67 @@
             Various types of Calculators
         </title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <link href="style.css" rel="stylesheet">
+        
     </head>
     <body>
-        <div class="navbar">
-            <button id="homebuton">Home</button>
-            <button id="aboutbutton">About</button>
-            <div class="dropdown">
-              <button class="dropbtn">Calculators</button>
-              <div class="dropdown-content">
-                <a id="simpleI">Simple Interest</a>
-                <a id="compoundI">Compound Interest</a>
-            
-              </div>
-            </div>
+        <header id="nav-menu">
+          
+        </header>
+        <div class="main">
+          <h1> <div id="divtag"><i>Compound Interest</i> Calculator </div> </h1></body>
+          <p>
+          <span class="description"> Compound interest is a concept in finance that refers to the interest earned on both the initial principal amount and any accumulated interest from previous periods. In other words, it is the interest on interest. Compound interest allows your investments or savings to grow at an accelerated rate over time.</span><br><br>
+          <big> The formula for calculating Compound interest is:</big><br><br><br>
+           <span class="formula">A = P(1 + r / (100 x n) )^(nt)<br><br>
+
+            Where:<br>
+            A = the future value of the investment/loan, including interest<br>
+            P = the principal amount (initial investment/loan)<br>
+            r = the annual interest rate (expressed as an integer)<br>
+            n = the number of times that interest is compounded per year<br>
+            t = the number of years the money is invested/borrowed for</span><br>
+          </p><br>
+          <p class="instructions"><i>INSTRUCTIONS:</i><br><br> Give the input in the below textboxes and press "Submit" button to display the Compound Interest.</p><br>
+          <div class="box">
+            <h3> Principal amount(in Rs/-): </h3>
+            <h3 style="display: inline;padding-right:7px;">P =</h3>
+            <input id="input1" title="Only positive numbers." onkeypress="return event.charCode >= 48" min="1" type="number"  maxlength="8" placeholder="Enter the amount">
+           
+            <br><br>
+            <h3> Time(in years only): </h3>
+            <h3 style="display: inline;padding-right:7px;">t =</h3>
+            <input id="input2" type="number"title="Only positive numbers." onkeypress="return event.charCode >= 48" min="1" maxlength="8" placeholder="Enter time required">
+       
+            <br><br>
+            <h3> Annual Rate of Interest(in percent%): </h3>
+            <h3 style="display: inline;padding-right:7px;">r =</h3>
+            <input id="input3" type="number"title="Only positive numbers." onkeypress="return event.charCode >= 48" min="1" maxlength="8" placeholder="Enter Rate of interest%">
+
+            <br><br>
+            <h3> Number of times that interest is compounded per year:</h3>
+            <h3 style="display: inline;padding-right:7px;">n =</h3>
+            <input id="input4" type="number" title="Only positive integers." onkeypress="return event.charCode >=48" min="1" maxlength="8" placeholder="Enter Number">
+            <button onclick="function2()" id="submit">SUBMIT</button>
+          </div>
+          <br>
+          <br>
+          <br>
+          <img src="C:\Users\raisi\Downloads\Screenshot-2021-12-16-at-14-07-09-Untitled-design (1).jpg" class="image2" alt="Compound interest description">
+          
+          <p style="display: inline;font-size:22px; font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Open Sans', 'Helvetica Neue', sans-serif ; padding-right:15px; color:navy;"><b>Compound Interest Calculated is: </b></p>
+          
+          <p id="output" style="display: inline;font-size: 22px; font-family:Arial, Helvetica, sans-serif; color:darkgreen;"></p>
+       <br>
+       <br>
+       <br>
+       <span class="finalvalue" style="display: inline;"> The total Future amount obtained including the compounded interest is: </span>
+       <span id="finalresult" style="display: inline;font-size: 22px; font-family:Arial, Helvetica, sans-serif; color:darkgreen;"></span>
+       <br><br><br><br>
+
         </div>
-    <script src="script.js"></script>
+    <script src="script.js"> </script>
     </body>
 </html>
