@@ -6,6 +6,9 @@ function function1(){
 var  result=(input * input1 * input2) / 100;
 var resultExp=document.getElementById("output");
 resultExp.innerHTML= result;
+var add=result+ Number(input);
+var addexp=document.getElementById("finalresult");
+addexp.innerHTML=Math.round(add);
 }
 
 document.getElementById("firstbutton").addEventListener("click",function(){
